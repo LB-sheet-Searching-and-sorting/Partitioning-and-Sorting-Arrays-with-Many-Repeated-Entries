@@ -16,4 +16,4 @@ A Basic Sorting algorithm like MergeSort, HeapSort would take O(nLogn) time wher
 TC = O(nlogn)
 
 A Better Solution is to use Self-Balancing Binary Search Tree like AVL or Red-Black to sort in O(n Log m) time where m is number of distinct elements. The idea is to extend tree node to have count of keys also. ((LATER))
-TC = O(logn)
+TC =  O(n Log m) time where m is number of distinct elements. 
